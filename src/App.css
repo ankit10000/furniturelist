@@ -1,38 +1,209 @@
-.App {
-  text-align: center;
+
+
+.app{
+  background-color: #323232;
+  height: 100vh;
+  width: 100%;
+}
+.nav {
+  align-self: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.a2{
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  font-size: xx-large;
+  font-weight:900;
+  color: #d9d0b8;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navspace{
+  margin-left: 60px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.a1 {
+  text-decoration: none;
+  font-size: 21px;
+  color: rgb(255, 255, 255);
 }
+.a1:hover {
+  
+  color: rgb(106 197 193);
+}
+.nav2 {
+  position: absolute;
+    right: 252px;
+    /* border: 2px solid red; */
+    background-color: #464646;
+    padding: 12px;
+    align-self: center;
+    padding-right: 26px;
+    border-radius: 35px;
+}
+.nav2 input{
+  /* display: flex; */
+  width: 54%;
+  height: 38px;
+    font-size: large;
+    background-color: transparent;
+    padding-left: 38px;
+    border: none;
+    outline: none;
+    color: #c9cbcc;
+}
+.nav2 img{
+  position: absolute;
+  top: 18px;
+  left: 18px;
+}
+.nav2 #logo1{
+  position: absolute;
+  top: 18px;
+  left: 240px;
+}
+ul {
+  list-style: none;
+}
+.container1 {
+  display: flex;
+  list-style: none;
+  /* background-color: rgb(221 141 141); */
+  height: 50px;
+  /* border-radius: 25px; */
+  margin-left: 145px;
+  /* margin-right: 53px; */
+  margin-top: 55px;
+  position: absolute;
+  width: 92%;
+  
+}
+::placeholder{
+  color: #c1c4c4;
+  font-size:21px
+}
+.container{
+  padding-top: 140px;
+  background-color: #323232;
+  color: aliceblue;
+  height: 900px;
+}
+.vl {
+  border-left: 2px solid gray;
+  height: 38px;
+  top: 12px;
+  right: 81px;
+  position: absolute;
+}
+.h1{
+  /* border-left: 2px solid gray; */
+  border-bottom: 2px solid #ebdfce;
+  width: 25px;
+  height: 39px;
+  top: -0.5px;
+  right: 19px;
+  position: absolute;
+}
+.h2{
+  /* border-left: 2px solid gray; */
+  border-bottom: 2px solid #ebdfce;
+  width: 25px;
+  height: 39px;
+  top: -8px;
+  right: 19px;
+  position: absolute;
+}
+.h3{
+  /* border-left: 2px solid gray; */
+  border-bottom: 2px solid #ebdfce;
+  width: 25px;
+  height: 39px;
+  top: -15px;
+  right: 19px;
+  position: absolute;
+}
+.nav3 {
+  position: absolute;
+  right: 148px;
+  /* border: 2px solid red; */
+  background-color: #464646;
+  top: -5px;
+  padding-top: 1px;
+  padding-bottom: 20px;
+  height: 40px;
+  padding-left: 2px;
+  align-self: center;
+  padding-right: 60px;
+  border-radius: 35px;
+}
+.boxdiv{
+  font-size: 130px;
+  width: 41%;
+  left: 166px;
+  top: 193px;
+  font-weight: 600;
+  position: absolute;
+  line-height: 1;
+  color: #f8f7f1;
+}
+.picdivbox{
+  position: absolute;
+  right: 370px;
+  top: 233px;
+  width: 21%;
+}
+#coustome{
+  border: 1.5px solid #cfc8b0;
+  /* text-align: center; */
+  padding-top: 45px;
+  padding-bottom: 50px;
+  width: 80%;
+  color: #e5dac2;
+  font-size: 33px;
+  padding-left: 25px;
+  padding-right: 110px;
+  border-radius: 35px;
+  
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+#boxlink{
+  color:aliceblue;
+}
+#pic1{
+  background-color: #cfc8b0;
+    border-radius: 35px;
+    padding: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#pic2{
+  /* background-color: #cfc8b0;  */
+    border: 1.5px solid #cfc8b0;
+    border-radius: 35px;
+    padding: 65px;
+    padding-left: 45px;
+    padding-right: 41px;
+}
+#pic3{
+  background-color: #cfc8b0;
+  border-radius: 35px;
+  /* padding: 40px; */
+  padding-top: 82px;
+  padding-bottom: 82px;
+  padding-left: 94.5px;
+  padding-right: 94.5px;
+}
+#pic4{
+  border: 1.5px solid #cfc8b0;
+    border-radius: 35px;
+    /* padding: 27px; */
+    top: 472px;
+    padding: 53px;
+    padding-top: 65px;
+    position: absolute;
+    padding-bottom: 65px;
+}
+.innerbox{
+  display: flex;
+}
+.innerbox1{
+  display: flex;
 }
