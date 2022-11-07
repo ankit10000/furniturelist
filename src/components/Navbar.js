@@ -7,7 +7,7 @@ import {
 
 export default function Navbar(props) {
     return (
-        <div className='container1'>
+        <div className='container'>
             <div className="nav">
                 <ul><li><Link className="a2" to="/">{props.title}</Link></li></ul>
             </div>
