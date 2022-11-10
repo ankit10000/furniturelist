@@ -64,11 +64,11 @@ export default function Home() {
             </Link>
           </div>
           <div className="secondBox">
-            <Link to="#"><div className="categ">a</div></Link>
-            <Link to="#"><div className="categ">s</div></Link>
-            <Link to="#"><div className="categ">d</div></Link>
-            <Link to="#"><div className="categ">f</div></Link>
-            <Link to="#"><div className="categ">g</div></Link>
+            <Link to="#"><div className="categ">Chair</div></Link>
+            <Link to="#"><div className="categ">Tables</div></Link>
+            <Link to="#"><div className="categ">Cabinates</div></Link>
+            <Link to="#"><div className="categ">Desks</div></Link>
+            <Link to="#"><div className="categ">Sofas</div></Link>
           </div>
           <div className="thiredBox">
             <Link to="#">
@@ -136,7 +136,25 @@ export default function Home() {
         </div>
       </div>
       <div className="container5">
-        
+        <div className="content">
+          <div className="innercontainer">
+            <Link to='#'><img src={Pic3} alt="loading" height='600px' width="400px" /></Link>
+            
+          </div>
+          <div className="innercontainer1">
+            <div className='tell'>Why us?</div>
+            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+            <div className="li">
+              <li>Risk-free, 30-day return policy</li>
+              <li>Honest prize without retail overheads</li>
+              <li>Warranty and in-house protection plan by Neo Livin</li>
+              <li>From curated brands and manufactures</li>
+            </div>
+          <div className="btnsell">
+            <Link to='#'>Learn More</Link>
+          </div>
+          </div>
+        </div>
       </div>
 
     </>

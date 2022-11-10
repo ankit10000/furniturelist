@@ -13,16 +13,16 @@ export default function Navbar(props) {
             </div>
             <div className="navspace">
                 <div className="nav">
-                    <ul><li><Link className="a1" to="/about">About Us</Link></li></ul>
+                    <ul><li><Link className="a1" to="/">About Us</Link></li></ul>
                 </div>
                 <div className="nav">
-                    <ul><li><Link className="a1" aria-current="page" to="/furniture">Furniture</Link></li></ul>
+                    <ul><li><Link className="a1" aria-current="page" to="/">Furniture</Link></li></ul>
                 </div>
                 <div className="nav">
-                    <ul><li><Link className="a1" to="/store">Our Store</Link></li></ul>
+                    <ul><li><Link className="a1" to="/">Our Store</Link></li></ul>
                 </div>
                 <div className="nav">
-                    <ul><li><Link className="a1" to="/collection">Collection</Link></li></ul>
+                    <ul><li><Link className="a1" to="/">Collection</Link></li></ul>
                 </div>
             </div>
 

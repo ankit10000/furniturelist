@@ -1,3 +1,6 @@
+*{
+  zoom: 100%;
+}
 .app {
   background-color: #323232;
   height: 100vh;
@@ -123,19 +126,23 @@ ul {
 }
 .boxdiv {
   font-size: 130px;
-  width: 41%;
-  left: 166px;
-  top: 193px;
-  font-weight: 600;
-  position: absolute;
-  line-height: 1;
-  color: #f8f7f1;
+    width: 41%;
+    /* left: 166px; */
+    top: 193px;
+    font-weight: 600;
+    /* position: absolute; */
+    line-height: 1;
+    color: #f8f7f1;
 }
 .picdivbox {
   position: absolute;
-  right: 370px;
+  /* right: 370px; */
   top: 233px;
-  width: 300px;
+  width: 610px;
+  margin-left: 1038px;
+  /* right: 2580px; */
+  /* display: flex; */
+  /* flex-direction: column;*/
 }
 #coustome {
   border: 1.5px solid #cfc8b0;
@@ -193,7 +200,7 @@ ul {
 .btncontain {
   position: absolute;
   top: 760px;
-  left: 180px;
+  /* left: 180px; */
   list-style: none;
   padding: 15px;
   padding-right: 30px;
@@ -214,9 +221,15 @@ ul {
   justify-content: center;
   background-color: #f2eddf;
   font-size: xx-large;
+  margin: auto;
 }
 .container2 a{
   color: #1f1f1f;
+}
+.outerboxdiv{
+  width: 1680px;
+  height: 900px;
+  margin: auto;
 }
 .box1 {
   padding: 58px;
@@ -255,7 +268,7 @@ ul {
 }
 .secondBox {
   height: 1000px;
-  width: 1200vw;
+  width: 1150vw;
   text-align: center;
   display: flex;
   padding: 0px 0px;
@@ -265,20 +278,24 @@ ul {
 .thiredBox {
   width: 1800vw;
 }
+.container3{
+  width: 1950px;
+  margin: auto;
+}
 .box5 {
-  /* height: 500px; */
-  display: flex;
-  position: absolute;
-  flex-direction: column;
-  text-align: center;
-  left: 80px;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 50px;
 }
 .box6 {
   position: absolute;
-  left: 400px;
+  /* left: 400px; */
   top: 1800px;
   display: flex;
   flex-direction: column;
+  margin-left: 400px;
   text-align: center;
 }
 .box7 {
@@ -287,33 +304,43 @@ ul {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-left: 50px;
 }
 .box8 {
   display: flex;
-  position: absolute;
-  flex-direction: column;
-  text-align: center;
-  right: 80px;
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    /* right: 80px; */
+    margin-left: 390px;
 }
 .box9 {
   position: absolute;
-  right: 400px;
+  /* right: 400px; */
   top: 1800px;
   display: flex;
   flex-direction: column;
+  margin-left: 100px;
   text-align: center;
 }
 .box0 {
   position: absolute;
   top: 2150px;
-  right: 80px;
+  /* right: 80px; */
   display: flex;
   flex-direction: column;
+  margin-left: 390px;
   text-align: center;
 }
 .categ {
   padding: 20px;
-  border: #1f1f1f 2px solid;
+    /* border: #1f1f1f 2px solid; */
+    background-color: #e8cbb7d4;
+    border-radius: 35px;
+    margin-bottom: 10px;
+    font-size: 21px;
+    font-weight: 500;
+    color: #323232;
 }
 .room {
   text-align: center;
@@ -388,4 +415,49 @@ a {
   background-color: #f8f7f1;
   padding-top: 70px;
   height: 1200px;
+  width: 1950px;
+  margin: auto;
+}
+.container5{
+  margin-top: 100px;
+  margin: auto;
+  width: 1950px;
+}
+.innercontainer {
+  padding: 155px 10%;
+  /* background-color: #cfc8b0;
+  border-radius: 80px; */
+}
+.innercontainer1{
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.tell{
+  font-size: 70px;
+    color: #323232;
+    margin-top: 220px;
+}
+.innercontainer1 span{
+  font-size: large;
+  margin-top: 10px;
+  font-weight: 500;
+  color: #323232;
+}
+.li{
+  margin-top: 20px;
+  font-size: x-large;
+}
+.btnsell{
+  position: absolute;
+  top: 4500px;
+  background-color: bisque;
+  margin-left: 400px;
+  padding: 15px 30px;
+  border-radius: 20px;
+  font-size: x-large;
+}
+.btnsell a{
+  color: #323232;
 }
