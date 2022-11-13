@@ -10,7 +10,7 @@ import Home from "./components/Home";
 function App() {
   return (
     <Router>
-      <Navbar title="Classico"/>
+      <Navbar title="Dec-furniture"/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route exact path="/furniture" element={<Furniture />} />

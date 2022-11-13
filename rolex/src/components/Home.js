@@ -6,12 +6,22 @@ import Pic4 from '../img/pngwing.com.png';
 import { Link } from 'react-router-dom';
 
 export default function Home() {
+//   useEffect(() => {
+//     var today = new Date();
+// var year = today.getFullYear();
+// var mes = today.getMonth()+1;
+// var dia = today.getDate();
+// var fecha =dia+"-"+mes+"-"+year;
+//   })
+  
+  
   return (
     <>
       <div className="container1">
         <div className="outerboxdiv">
           <div className="boxdiv">
-            Make Your Dream Space a Reality
+            {/* Make Your Dream Space a Reality */}
+            Dreams Don't Work Unless You Take Action
           </div>
           <div className="picdivbox">
             <div className="innerbox">
@@ -58,17 +68,17 @@ export default function Home() {
             </Link>
             <Link to="#">
               <div className="box7">
-                <img src={Pic4} alt="Loading" width='300px' height="330px" />
+                <img src={Pic4} alt="Loading" width='250px' height="330px" />
                 <span>hello world</span>
               </div>
             </Link>
           </div>
           <div className="secondBox">
-            <Link to="#"><div className="categ">Chair</div></Link>
-            <Link to="#"><div className="categ">Tables</div></Link>
-            <Link to="#"><div className="categ">Cabinates</div></Link>
-            <Link to="#"><div className="categ">Desks</div></Link>
-            <Link to="#"><div className="categ">Sofas</div></Link>
+            <Link to="#" className='a'><div className="categ">Chair</div></Link>
+            <Link to="#" className='a'><div className="categ">Tables</div></Link>
+            <Link to="#" className='a'><div className="categ">Cabinates</div></Link>
+            <Link to="#" className='a'><div className="categ">Desks</div></Link>
+            <Link to="#" className='a'><div className="categ">Sofas</div></Link>
           </div>
           <div className="thiredBox">
             <Link to="#">
@@ -85,7 +95,7 @@ export default function Home() {
             </Link>
             <Link to="#">
               <div className="box0">
-                <img src={Pic2} alt="Loading" width='300px' height="330px" />
+                <img src={Pic2} alt="Loading" width='250px' height="330px" />
                 <span>hello world</span>
               </div>
             </Link>
@@ -139,7 +149,7 @@ export default function Home() {
         <div className="content">
           <div className="innercontainer">
             <Link to='#'><img src={Pic3} alt="loading" height='600px' width="400px" /></Link>
-            
+
           </div>
           <div className="innercontainer1">
             <div className='tell'>Why us?</div>
@@ -150,11 +160,49 @@ export default function Home() {
               <li>Warranty and in-house protection plan by Neo Livin</li>
               <li>From curated brands and manufactures</li>
             </div>
-          <div className="btnsell">
-            <Link to='#'>Learn More</Link>
-          </div>
+            <div className="btnsell">
+              <Link to='#'>Learn More</Link>
+            </div>
           </div>
         </div>
+      </div>
+      <div className="container6">
+        <div className="review">
+          Our Reviews
+        </div>
+        <div className="boxss">
+          <div className="boxs">
+            <div className="box13 mySlides">
+              <img src={Pic4} width='100px' height='100px' alt="" />
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quasi molestias voluptate non quos deleniti eligendi pariatur amet, consequatur sint illum sunt, excepturi dignissimos nobis neque exercitationem placeat ab harum laborum eum ex nesciunt.
+            </div>
+            <div className="box14 mySlides">
+              <img src={Pic4} width='100px' height='100px' alt="" />
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quasi molestias voluptate non quos deleniti eligendi pariatur amet, consequatur sint illum sunt, excepturi dignissimos nobis neque exercitationem placeat ab harum laborum eum ex nesciunt.
+            </div>
+            <div className="box15 mySlides">
+              <img src={Pic4} width='100px' height='100px' alt="" />
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quasi molestias voluptate non quos deleniti eligendi pariatur amet, consequatur sint illum sunt, excepturi dignissimos nobis neque exercitationem placeat ab harum laborum eum ex nesciunt.
+            </div>
+            <div className="box16 mySlides">
+              <img src={Pic4} width='100px' height='100px' alt="" />
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quasi molestias voluptate non quos deleniti eligendi pariatur amet, consequatur sint illum sunt, excepturi dignissimos nobis neque exercitationem placeat ab harum laborum eum ex nesciunt.
+            </div>
+            <div className="box17 mySlides">
+              <img src={Pic4} width='100px' height='100px' alt="" />
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quasi molestias voluptate non quos deleniti eligendi pariatur amet, consequatur sint illum sunt, excepturi dignissimos nobis neque exercitationem placeat ab harum laborum eum ex nesciunt.
+            </div>
+            <div className="box18 mySlides">
+              <img src={Pic4} width='100px' height='100px' alt="" />
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quasi molestias voluptate non quos deleniti eligendi pariatur amet, consequatur sint illum sunt, excepturi dignissimos nobis neque exercitationem placeat ab harum laborum eum ex nesciunt.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container7">
+          <div className="footer">
+            Copyright - 2022
+          </div>
       </div>
 
     </>
