@@ -173,15 +173,15 @@ export default function Home() {
         <div className="boxss">
           <div className="boxs">
             <div className="box13 mySlides">
-              <img src={Pic4} width='100px' height='100px' alt="" />
+              <img src={Pic1} width='100px' height='100px' alt="" />
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quasi molestias voluptate non quos deleniti eligendi pariatur amet, consequatur sint illum sunt, excepturi dignissimos nobis neque exercitationem placeat ab harum laborum eum ex nesciunt.
             </div>
             <div className="box14 mySlides">
-              <img src={Pic4} width='100px' height='100px' alt="" />
+              <img src={Pic2} width='100px' height='100px' alt="" />
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quasi molestias voluptate non quos deleniti eligendi pariatur amet, consequatur sint illum sunt, excepturi dignissimos nobis neque exercitationem placeat ab harum laborum eum ex nesciunt.
             </div>
             <div className="box15 mySlides">
-              <img src={Pic4} width='100px' height='100px' alt="" />
+              <img src={Pic3} width='100px' height='100px' alt="" />
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quasi molestias voluptate non quos deleniti eligendi pariatur amet, consequatur sint illum sunt, excepturi dignissimos nobis neque exercitationem placeat ab harum laborum eum ex nesciunt.
             </div>
             <div className="box16 mySlides">
@@ -189,11 +189,11 @@ export default function Home() {
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quasi molestias voluptate non quos deleniti eligendi pariatur amet, consequatur sint illum sunt, excepturi dignissimos nobis neque exercitationem placeat ab harum laborum eum ex nesciunt.
             </div>
             <div className="box17 mySlides">
-              <img src={Pic4} width='100px' height='100px' alt="" />
+              <img src={Pic1} width='100px' height='100px' alt="" />
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quasi molestias voluptate non quos deleniti eligendi pariatur amet, consequatur sint illum sunt, excepturi dignissimos nobis neque exercitationem placeat ab harum laborum eum ex nesciunt.
             </div>
             <div className="box18 mySlides">
-              <img src={Pic4} width='100px' height='100px' alt="" />
+              <img src={Pic2} width='100px' height='100px' alt="" />
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quasi molestias voluptate non quos deleniti eligendi pariatur amet, consequatur sint illum sunt, excepturi dignissimos nobis neque exercitationem placeat ab harum laborum eum ex nesciunt.
             </div>
           </div>
