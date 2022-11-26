@@ -17,5 +17,5 @@ const middleware = (req, res, next) =>{
 }
 
 app.listen(PORT, () =>{
-    console.log('hello server')
+    console.log('hello server', PORT)
 })
